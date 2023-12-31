@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toDoItems
+{
+   
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+  align-items: center;
+  
+
+
+
+}
+ 
+.toDoItem
+{
+    display: flex;
+  
+align-items: center;
+
+}
+
+.line-through
+{
+    text-decoration: line-through;
+}
+
+
+toDoItems > img {
+    cursor: pointer;
+    margin: 10px;
+}
