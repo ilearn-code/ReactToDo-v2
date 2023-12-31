@@ -1,38 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.toDoItems
-{
-   
-  
+.toDoItems {
+
+
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
-  align-items: center;
-  
+    align-items: center;
+
 
 
 
 }
- 
-.toDoItem
-{
+
+.toDoItem {
     display: flex;
-  
-align-items: center;
+
+    align-items: center;
 
 }
 
-.line-through
-{
+.line-through {
     text-decoration: line-through;
 }
 
 
-toDoItems > img {
+toDoItems>img {
     cursor: pointer;
     margin: 10px;
 }
